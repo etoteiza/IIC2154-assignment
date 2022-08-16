@@ -2,6 +2,7 @@ from functions.load_data import load_data
 from functions.top_retweets import top_retweets
 from functions.top_users_tweets import top_users_tweets
 from functions.top_days import top_days
+from functions.top_hashtags import top_hashtags
 
 if __name__ == "__main__":
     
@@ -12,3 +13,5 @@ if __name__ == "__main__":
     top_users_tweets(data)
 
     top_days(data)
+
+    top_hashtags(data)
